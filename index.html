@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me – Bucky Badger</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -18,7 +19,6 @@
         <a class="m-2" href="index.html">About Me</a>
         <a class="m-2" href="blog.html">Blog</a>
       </p>
-      </p>
     </nav>
     <section class="m-3">
       <div style="width: 300px; overflow: hidden; white-space: nowrap">
@@ -26,8 +26,9 @@
           >Welcome to my website!</marquee
         >
       </div>
-      <h4>About Me</h4>
-      <img src="/bucky.png" style="width: 100px; height: 100px" />
+      <h1>About Me</h1>
+      <!-- CHANGED: added alt text -->
+      <img src="bucky.png" alt="UW–Madison mascot Bucky Badger" style="width: 100px; height: 100px" />
       <div class="hidden">
         <p>
           Welcome! My name is Buckingham U. Badger, and I am the mascot for the
@@ -40,12 +41,14 @@
           roots? Let's talk!
         </p>
       </div>
-      <h1>Sign up for my newsletter!</h1>
-      <!-- When fixing this website, you don't need to make the form "work", but you do need to make it accessible :) -->
+      <h2>Sign up for my newsletter!</h2>
+      <!-- CHANGED: added label and input type -->
       <form>
-        <input />
-        <button>SUBSCRIBE</button>
+        <label for="email">Email address:</label>
+        <input id="email" type="email" name="email" />
+        <button type="submit">SUBSCRIBE</button>
       </form>
     </section>
   </body>
 </html>
+

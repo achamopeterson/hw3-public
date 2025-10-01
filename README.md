@@ -24,5 +24,12 @@ If you have questions, please contact your instructor early!
 I changed the following...
  - List your
  - changes here!
- - ...
+ - Corrected <html lang> from "de" to "en" in index.html and blog.html.
+- Added a <title> in the head of index.html.
+- Added a meta description in the head of index.html.
+- Fixed heading hierarchy in index.html (About Me = h1, Newsletter = h2).
+- Added alt text to the image in index.html.
+- Labeled the form input and set input type="email" in index.html.
+- Fixed heading hierarchy in blog.html (Blog = h1, post titles = h2).
+- Added alt text to images in my-work.html.
 
