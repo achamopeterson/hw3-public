@@ -1,35 +1,3 @@
-# CS272-S25 HW3 - Accessibility
-
-For this HW, you will be improving the accessibility of my personal website! In particular, you will fix any of the following accessibility issues...
-
- - Meta information provided in the `head`
- - Missing heading levels
- - Images missing alternative text
- - Text with low contrast
- - Unlabelled inputs
- - Distracting animations
- - Inconsistent navigation bars
- - Poor responsiveness
-
-... as well as anything else you see fit! As you make your changes, please update the list within the "My Updates" section of this `README.md`.
-
-In order to get full credit, you will need to make at least 7 different types changes and list them in this `README.md` file below. For example, adding `alt` text to each image counts as a single change. Changing all `px` to `rem` is another type of change!
-
-If you have questions, please contact your instructor early!
-
-**Be sure to edit the list below with your changes!**
-
-## My Updates
-
-I changed the following...
- - List your
- - changes here!
- - Corrected <html lang> from "de" to "en" in index.html and blog.html.
-- Added a <title> in the head of index.html.
-- Added a meta description in the head of index.html.
-- Fixed heading hierarchy in index.html (About Me = h1, Newsletter = h2).
-- Added alt text to the image in index.html.
-- Labeled the form input and set input type="email" in index.html.
-- Fixed heading hierarchy in blog.html (Blog = h1, post titles = h2).
-- Added alt text to images in my-work.html.
-
+# HW6 – Badger Mart Shopping Cart
+A JavaScript web app that simulates an online shopping experience.  
+Includes add-to-cart, checkout, and transaction logging using DOM manipulation and events.
