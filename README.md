@@ -1,3 +1,4 @@
-# HW6 – Badger Mart Shopping Cart
-A JavaScript web app that simulates an online shopping experience.  
-Includes add-to-cart, checkout, and transaction logging using DOM manipulation and events.
+# HW3 – JavaScript Duel Simulator
+A simple JavaScript-based web application that simulates a character duel.  
+Demonstrates basic logic, DOM manipulation, and interactive user input.  
+Originally completed for a web development course; shared publicly for portfolio purposes.
